@@ -1,0 +1,7 @@
+body {
+  background-image: url("https://bing.com/th/id/BCO.133508cf-8c2e-4875-873f-4cb09a7e9298.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; /* Faz a imagem ficar parada enquanto você rola a página */
+}
