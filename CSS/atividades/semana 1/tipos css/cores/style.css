@@ -1,0 +1,36 @@
+*
+{
+ text-align: center;
+.cor-predefinida
+{
+ color: blue !important;
+ border: 1px solid currentColor;
+}
+
+.hexadecimal
+{
+    color: #FFFF;
+    border: 1px solid #000
+}
+
+.RGB
+{
+  color: rgb(255, 255, 0);
+  background-color: rgb(255, 50, 70);
+}
+.RGB2
+{
+  color: rgba(255, 255, 0, 0.8);
+  background-color: rgba(255, 50, 70, 0.5);
+}
+p.HSL
+{
+  color: hsl(50, 150%, 90%);
+ background-color: hsl(10, 250%, 60%);
+}
+p.HSLa
+{
+  color: hsl(50, 150%, 90%, 0.8);
+ background-color: hsl(10, 250%, 60%, 0.9);
+}
+}

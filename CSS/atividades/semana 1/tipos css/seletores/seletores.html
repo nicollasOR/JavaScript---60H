@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores</title>
+    <style>
+        
+        * {
+            text-align: center;
+        }
+        
+        p {
+            font-size: 18px;
+        }
+
+        .seletor-classe {
+            font-style: italic;
+            color: dodgerblue;
+        }
+
+        #seletor-id {
+            text-decoration: underline;
+        }
+
+        p[name="seletor-atributo"] {
+            background-color: aquamarine;
+        }
+        /* attr*=contém */
+        /* attr$=sufixo */
+        /* attr~=uma lista separada por espaço  */
+        /* attr|=valor imediatamente após um hífen */
+        /* attr^=prefixo */
+        a[href*="google"] 
+        {
+            background-color: lightcoral;
+            text-decoration: none;
+            color: black;
+        }
+
+        ul li {
+            border: 1px solid darkgreen
+        }
+
+        ul a {
+            text-transform: uppercase;
+        }
+
+        div > p {
+            border-bottom: 1px dashed darkcyan;
+        }
+
+        .irmao + p {
+            font-family: cursive;
+        }
+
+        .irmao ~ p {
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <p>Este foi selecionado por elemento.</p>
+    <p class="seletor-classe">Este foi selecionado por classe.</p>
+    <p id="seletor-id">Seletor por ID</p>
+    <p name="seletor-atributo">Seletor por Atributo ex1.</p>
+    <a href="https://chatgpt.com">Seletor por atributo ex2.</a>
+    <ul>
+        <li>Seletor Descendente <a href="#">clique!</a></li>
+        <li>Seletor Descendente</li>
+        <li>Seletor Descendente</li>
+    </ul>
+
+    <div>
+        <p class="irmao">Seletor Filho.</p>
+        <p>Seletor Irmão Adjacente.</p>
+        <p>Seletor Irmão Geral.</p>
+    </div>
+
+
+</body>
+</html>

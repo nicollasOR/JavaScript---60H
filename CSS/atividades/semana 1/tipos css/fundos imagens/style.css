@@ -1,0 +1,59 @@
+* 
+{ 
+    margin: 0 auto;
+    box-sizing: border-box;
+
+      border: 20px solid black;
+}
+
+.fundo-imagem
+{
+    width: 500px;
+    height: 500px;
+  
+
+   background-image: 
+   url("https://aquinoticias.com/wp-content/uploads/2022/09/Sim-e-nao.jpg");
+   background-size: 100px 100px;
+   background-repeat: no-repeat;  /* padrão do proprio config */
+   background-position: -10px -20px;
+   background-position: center;
+   filter: blur(1px);
+
+    /* dimensão do fundo */
+  
+    /* background-size: auto;
+    background-size: cover;
+    background-size: auto; */
+    
+    /* Repetição de fundo */
+    /* background-repeat: no-repeat; */
+  
+    /* background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y; */
+   
+
+
+    /* Posicionando o fundo */
+    /* background-position: top left; */
+    /* background-position: center;
+    background-size: cover; */
+    /* background-position: top right;
+    background-position: ; */
+    
+
+   /* background-size: cover; */
+
+}
+
+.texto
+{
+    width: 200px;
+    height: 30px;
+
+    padding: 30% 20%;
+    background-image: url(https://www.mozilla.org/media/img/logos/firefox/logo-quantum.9c5e96634f92.png);
+
+    backdrop-filter: invert(80%);
+}

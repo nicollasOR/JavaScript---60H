@@ -1,0 +1,32 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div
+{
+
+    padding: 100px 190px;
+
+
+    width: 500px;
+    height: 500px;
+    
+
+    border: 5px solid black;
+
+/* background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%); */
+background-image: repeating-radial-gradient(
+  circle,
+  #ffffff 0px 20px,
+  #ff000000 20px 40px,
+  dodgerblue 40px 80px
+);
+}
+.blockquote
+{
+color: rgb(255, 0, 0);
+font-family: cursive;
+}
+

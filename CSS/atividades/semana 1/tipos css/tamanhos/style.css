@@ -1,0 +1,61 @@
+* 
+{
+    box-sizing: border-box;
+}
+
+div 
+{ 
+    margin: 10px 30px 20px 310px;
+     /* Cima, Direita, Baixo e Esquerda ==
+    margin-top
+    margin-right
+    margin-bottom
+    margin-left
+    */
+    /* margin: 20px auto; */
+    padding: 10px;
+
+    /* 
+    padding-top
+    padding-right
+    padding-bottom
+    padding-left
+    */ 
+
+    border: 5px solid black;
+    /* border-style: double;
+       border-width: 10px */
+/* 
+   
+      max-width: 500px;
+      height: 300px;
+  */
+    min-width: 200px;
+    max-width: 500px;
+    max-height: 100px;
+    overflow: auto;
+
+
+}
+
+.corOutra {
+    background-color: #0400ff;
+    color: black;
+
+
+}
+
+.corOutra2 {
+    background-color: #ff0000;
+    color: black;
+}
+
+/* que também é igual à 
+
+.coOutra, corOutra2
+{
+
+}
+
+*/
+
