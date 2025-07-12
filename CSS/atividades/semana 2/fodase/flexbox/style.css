@@ -1,0 +1,55 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.link
+{
+  width: 100vw;;
+
+    text-decoration: none;
+    color: black;
+
+    display: flex;
+    flex-direction: row;
+
+    gap: 10px;
+    list-style: none;
+}
+.a
+{
+    color: black;
+    text-decoration: none;
+}
+.flex-container 
+{
+  width: 100vw;
+    height: 1000vh;
+    background-color: white;
+
+    display: flex;
+    justify-content: space-between; /* Reto */
+    align-items: center; /*Altura*/
+}
+
+.item
+{
+    width: 100px;
+    height: 100px;
+}
+.elemento1
+{
+    background-color: cyan;
+}
+
+.elemento2
+{
+    background-color: rgb(47, 0, 255);
+
+}
+.elemento3
+{
+    background-color: rgb(255, 0, 0);
+    flex-shrink: 1;
+
+}

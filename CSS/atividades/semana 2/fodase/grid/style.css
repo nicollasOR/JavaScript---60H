@@ -1,0 +1,33 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.grid-template
+{ 
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-columns: 50px 50px 50px;
+
+    grid-template-rows: 100px 50px;
+
+    gap: 10px;
+  grid-auto-rows: 50px;
+}
+
+.g1
+{
+    grid-column: span 5;
+}
+
+.g2
+{
+    grid-column: span 20 ;}
+
+.grid-cel
+{
+ background-color: rgb(255, 0, 0);
+ border: 1px solid rgb(0, 0, 0);
+}
