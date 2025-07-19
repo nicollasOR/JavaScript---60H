@@ -1,0 +1,32 @@
+*
+{ 
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body
+{
+    margin: 0;
+}
+
+header
+{
+  padding: 40px;
+   text-align: center;
+   
+  background-color: red;
+}
+
+main
+{
+ margin: 0 auto;
+ padding: 20px;
+
+ column-width: 200px;
+ column-rule: 1px solid lightgrey;
+ column-gap: 20px;
+
+
+}
+
+p {margin: 0;}
