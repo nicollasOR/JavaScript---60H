@@ -1,0 +1,19 @@
+.textoInicial
+{
+ text-align: center;
+ font-family: Arial;
+    padding: 0;
+    margin: 0;
+    color: white solid;
+}
+
+body
+    {
+     background-image: url(assets/sobrerenatao1.jpg);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
