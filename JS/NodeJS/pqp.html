@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Status do Aluno</title>
+</head>
+<body>
+    <h3>Notas do Aluno</h3>
+
+    N1: <input type="number" id="n1"><br><br>
+    N2: <input type="number" id="n2"><br><br>
+
+    <button onclick="calcular()">Calcular Média</button><br><br>
+
+    Média: <input type="text" id="media" readonly><br><br>
+    Status final do Aluno: <input type="text" id="status" readonly>
+
+    <script>
+        function calcular() {
+            // Obtém os valores das notas
+            let n1 = parseFloat(document.getElementById("n1").value);
+            let n2 = parseFloat(document.getElementById("n2").value);
+
+            // Calcula a média
+            let media = (n1 + n2) / 2;
+
+            // Determina o status do aluno
+            let status;
+            if (media === 10) {
+                status = "Aprovado com Distinção";
+            } else if (media >= 7) {
+                status = "Aprovado";
+            } else {
+                status = "Reprovado";
+            }
+
+            // Exibe os resultados
+            document.getElementById("media").value = media.toFixed(2);
+            document.getElementById("status").value = status;
+        }
+    </script>
+</body>
+</html>
