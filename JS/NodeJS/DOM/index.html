@@ -10,6 +10,8 @@
             color: blue;
 
         }
+
+
     </style>
 </head>
 <body>
@@ -20,11 +22,21 @@
     <p class="texto">se talvez vá</p>
 
     <p id="paragrafo"></p>
+    <div class="conteudo"> </div>
 
+ <div name="estilos">Alterando CSS</div>
     <script>
         console.log('oi');
         const p = document.querySelector('p#paragrafo');
         p.textContent = 'Adicionando texto usando DOM.'
-    </script>
+
+        // const conteudo = document.getElementByClassName('conteudo')[0];
+
+        const conteudo = document.querySelector('.conteudo');
+        conteudo.innerHTML = '<p> este conteudo está <mark>destacado </mark> </p>'
+
+        const estilos = documento.querySelector('div[name="estilos"]');
+         estilos.styles.
+</script>
 </body>
 </html>
