@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="./index.js"></script>
+    <title>Dom</title>
+    <style>
+        #paragrafo {
+            color: blue;
+
+        }
+    </style>
+</head>
+<body>
+    <p id="554">Testar o Dom</p>
+  <br><br>
+  <br><br>
+
+    <p class="texto">se talvez vá</p>
+
+    <p id="paragrafo"></p>
+
+    <script>
+        console.log('oi');
+        const p = document.querySelector('p#paragrafo');
+        p.textContent = 'Adicionando texto usando DOM.'
+    </script>
+</body>
+</html>
